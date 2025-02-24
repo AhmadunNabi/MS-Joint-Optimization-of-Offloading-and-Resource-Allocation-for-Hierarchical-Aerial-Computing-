@@ -5,4 +5,8 @@ This repository contains a Matching Game Theory-based approach for user associat
 
 * We have considered GUs which generates tasks randomly and make offloading decision as well as asociate with most preferred UAV using Matching game based algorithm
 * Afther this UAV make partial offloading decision to HAP, then UAV and HAP allocate their computation resource using enhanced soft actor critic algorithm
+* We have created one class for GU using file GU.py wehre GUs generate the tasks with task information and other related information
+* We have created another class for UAV using file UAV.py where UAVs generate their corresponding information
+* Then the main_GU_UAV_association.py file contains the code of User association and GUs offloading decision
+* Another file plot.py - give us the figure of the system model
 
